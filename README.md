@@ -81,14 +81,14 @@ implementation and reduces costs.
 <pre>
 │   .gitignore
 │   package-lock.json
-│   <a href="https://gist.github.com/syedmazharaliraza/4a0c3391d370709caf59f871facd9d31">package.json</a>
+│   <a href="https://gist.github.com/jhaashutosh/9de516357b54eff5077fabb6a978a075">package.json</a>
 │   Procfile
 │   README.md
 |   .env
 │
 ├───client
 │   │   package-lock.json
-│   │   <a href="https://gist.github.com/syedmazharaliraza/46f34cf3706ade74d59e7cb16aa02158">package.json</a>
+│   │   <a href="https://gist.github.com/jhaashutosh/8332af845ae12680f04684e3e07cb76b">package-lock.json</a>
 │   │   README.md
 │   │
 │   ├───public
@@ -100,39 +100,39 @@ implementation and reduces costs.
 │   │       robots.txt
 │   │
 │   └───src
-│       │   <a href="https://gist.github.com/syedmazharaliraza/04d92660529ce7e0460f1cb8b1d8a4ed">App.js</a>
+│       │   <a href="https://gist.github.com/jhaashutosh/793ed4fe9ac38522aac145d251d36288">App.js</a>
 │       │   bootstrap.min.css
-│       │   <a href="https://gist.github.com/syedmazharaliraza/43202f54b17d577406f50d91c1516dc7">index.css</a>
-│       │   <a href="https://gist.github.com/syedmazharaliraza/97869df7c02f07c15761f77fc3f40852">index.js</a>
+│       │   <a href="https://gist.github.com/jhaashutosh/794c5da7b9b24607b46a6af2304caf6e">index.css</a>
+│       │   <a href="https://gist.github.com/jhaashutosh/a32ddfd9feda457bf88c6d526bfb4e6a">index.js</a>
 │       │
 │       ├───actions
-│       │       <a href="https://gist.github.com/syedmazharaliraza/4bb326c49aa445b1b521056e5d293d3d">billActions.js</a>
-│       │       <a href="https://gist.github.com/syedmazharaliraza/79f4d28bf52dbdabf68aaf62ae349e08">unitActions.js</a>
-│       │       <a href="https://gist.github.com/syedmazharaliraza/b3c4c323eb731ce235a1391d34b0a908">userActions.js</a>
+│       │       <a href="https://gist.github.com/jhaashutosh/fd7b0967d08cde8c1e3a220fb6aa27ac">billActions.js</a>
+│       │       <a href="https://gist.github.com/jhaashutosh/9eed8467085fba2c2fa09d5361de1dab">unitActions.js</a>
+│       │       <a href="https://gist.github.com/jhaashutosh/25f9d5b5630b9aacc22da5d5564310fc">userActions.js</a>
 │       │
 │       ├───components
-│       │   │   <a href="https://gist.github.com/syedmazharaliraza/aa310468c6957d02a7bc78751a22e473">Footer.js</a>
-│       │   │   <a href="https://gist.github.com/syedmazharaliraza/898b05d7342d3408c75f9fc535455942">Header.js</a>
-│       │   │   <a href="https://gist.github.com/syedmazharaliraza/5331d48e6784ad61f8a1a37154baaf55">Main.js</a>
+│       │   │   <a href="https://gist.github.com/jhaashutosh/2ac6f85a0fb27a0e16d1ef0b9ecf2239">Footer.js</a>
+│       │   │   <a href="https://gist.github.com/jhaashutosh/06f81c080693f55036390e50cc785bcd">Header.js</a>
+│       │   │   <a href="https://gist.github.com/jhaashutosh/20324062a9f89555019d2d5aa6b22cc1">Main.js</a>
 │       │   │
 │       │   ├───Bill
-│       │   │       <a href="https://gist.github.com/syedmazharaliraza/f01c2f3930fdf62ef887ee3b1d2fc9d0">index.js</a>
+│       │   │       <a href="https://gist.github.com/jhaashutosh/b70bfc4270807859e230d7f2066f1c98">index.js</a>
 │       │   │       index.module.css
 │       │   │
 │       │   ├───BillHistory
-│       │   │       <a href="https://gist.github.com/syedmazharaliraza/bf53fea616af572a0f459d8dbb4d32b9">Filter.js</a>
+│       │   │       <a href="https://gist.github.com/jhaashutosh/e95294d5e8d8cd1b193a8c746d05742e">Filter.js</a>
 │       │   │
 │       │   ├───form
-│       │   │       <a href="https://gist.github.com/syedmazharaliraza/3aab376e514ff069036baf649f099761">FormContainer.js</a>
+│       │   │       <a href="https://gist.github.com/jhaashutosh/34f436186b085ca788a9eba019317097">FormContainer.js</a>
 │       │   │
 │       │   ├───Institutes
 │       │   │   └───Modals
-│       │   │           <a href="https://gist.github.com/syedmazharaliraza/61b070525384b5329c4287b8108aeef4">AddInstituteModal.js</a>
-│       │   │          <a href="https://gist.github.com/syedmazharaliraza/cd65d82d1c6984f93affbf2ef46fee4f">EditInstituteModal.js</a>
+│       │   │           <a href="https://gist.github.com/jhaashutosh/82f5fccdcc1f7e2b65c9e47f4de94bc1">AddInstituteModal.js</a>
+│       │   │          <a href="https://gist.github.com/jhaashutosh/775a4c262dac0290c1f503cb21427f1f">EditInstituteModal.js</a>
 │       │   │
 │       │   └───ui
-│       │           <a href="https://gist.github.com/syedmazharaliraza/aefc68db1f640c3db3ed17a108c56687">Loader.js</a>
-│       │           <a href="https://gist.github.com/syedmazharaliraza/e3392d8b50ba03053d9c0fff79b33e55">Message.js</a>
+│       │           <a href="https://gist.github.com/jhaashutosh/e535dfb36a907ed5a8092e09564d7c97">Loader.js</a>
+│       │           <a href="https://gist.github.com/jhaashutosh/370823f5d9bf7487ccb91a8a10b31db2">Message.js</a>
 │       │
 │       ├───constants
 │       │       billConstants.js
@@ -140,57 +140,57 @@ implementation and reduces costs.
 │       │       userConstants.js
 │       │
 │       ├───hooks
-│       │       <a href="https://gist.github.com/syedmazharaliraza/5b701c7a40677d915b5a3f7336077ac5">useDebounce.js</a>
+│       │       <a href="https://gist.github.com/jhaashutosh/4fb887d4eacf99b4404f19483e5c36f4">useDebounce.js</a>
 │       │
 │       ├───reducers
-│       │       <a href="https://gist.github.com/syedmazharaliraza/0834d6ce089ee8f3bc948b09441239c6">billReducer.js</a>
-│       │       <a href="https://gist.github.com/syedmazharaliraza/5060c78e6b1ecf32077e119bb55ac4fa">unitReducers.js</a>
-│       │       <a href="https://gist.github.com/syedmazharaliraza/860abedc2304bce8d9dc56d64c657587">userReducers.js</a>
+│       │       <a href="https://gist.github.com/jhaashutosh/8ab257b0b8039bdbc2cb16cc36a3b685">billReducer.js</a>
+│       │       <a href="https://gist.github.com/jhaashutosh/22cf0a4101379b96890671b02b156fe6">unitReducers.js</a>
+│       │       <a href="https://gist.github.com/jhaashutosh/b7b94408decc157349d4a613240a9f01">userReducers.js</a>
 │       │
 │       ├───store
-│       │       <a href="https://gist.github.com/syedmazharaliraza/6e3750ab015cc1f445dcfa8a031037b3">store.js</a>
+│       │       <a href="https://gist.github.com/jhaashutosh/dba59a4d9118227e59fd1a14d2a38ef6">store.js</a>
 │       │
 │       ├───utils
-│       │       <a href="https://gist.github.com/syedmazharaliraza/4d4a4ca25c6f62d79a7e6581fcf6cb11">dateToString.js</a>
-│       │       <a href="https://gist.github.com/syedmazharaliraza/7a95a6e2b673cd56ea39c17977a2a7f6">formatAMPM.js</a>
-|       |       <a href="https://gist.github.com/syedmazharaliraza/f710984a16558071482304c770928ccd">printPDF.js</a>
+│       │       <a href="https://gist.github.com/jhaashutosh/68e6234d45bc15e4829cf2d801d3a7a9">dateToString.js</a>
+│       │       <a href="https://gist.github.com/jhaashutosh/5e35e901914e5b8d4a1f3b82d0f2c9f6">formatAMPM.js</a>
+|       |       <a href="https://gist.github.com/jhaashutosh/c7f7137e34a0bca479dfc4ce9b811dec">printPDF.js</a>
 │       │
 │       └───views
-│               <a href="https://gist.github.com/syedmazharaliraza/79e9ea1cddc07743d9a210928d059154">BillHistoryPage.js</a>
-│               <a href="https://gist.github.com/syedmazharaliraza/880f11646fa441c318c4e31cb6fae2a3">BillPage.js</a>
-│               <a href="">BillPage.module.css</a>
-│               <a href="https://gist.github.com/syedmazharaliraza/15c861b1d372471f77bd60e5f8b48c08">EditBillPage.js</a>
-│               <a href="https://gist.github.com/syedmazharaliraza/217dfbf14fdeef127df95f69ac52ea37">HomePage.js</a>
-│               <a href="https://gist.github.com/syedmazharaliraza/c0b80a93bc6bb36d98efdcd8c6bb3649">InstitutesPage.js</a>
-│               <a href="https://gist.github.com/syedmazharaliraza/22fae945a55d2c11dac8cbe90e704416">LoginPage.js</a>
-│               <a href="https://gist.github.com/syedmazharaliraza/6937e3cbab6d1126722ebf16febc232f">ProfilePage.js</a>
-│               <a href="https://gist.github.com/syedmazharaliraza/df0d14e61542c08ceb2169d3ce753023">RegisterPage.js</a>
-│               <a href="https://gist.github.com/syedmazharaliraza/b1889e305e59e1abd4f5dd8415837716">SchoolBillHistoryPage.js</a>
+│               <a href="https://gist.github.com/jhaashutosh/b2b82e0b14cd82de1cd935743445476c">BillHistoryPage.js</a>
+│               <a href="https://gist.github.com/jhaashutosh/263cdcdc0a25e9759a3c4dceb28b4d11">BillPage.js</a>
+│               <a href="https://gist.github.com/jhaashutosh/cec4e0115e04f1af36ff327693002379">BillPage.module.css</a>
+│               <a href="https://gist.github.com/jhaashutosh/00c825a82bd0001210965405dd36502f">EditBillPage.js</a>
+│               <a href="https://gist.github.com/jhaashutosh/e56110f20e4b69beaa958c5e7e105d3c">HomePage.js</a>
+│               <a href="https://gist.github.com/jhaashutosh/f93bd057b428157c4ff1e91219fd47ea">InstitutesPage.js</a>
+│               <a href="https://gist.github.com/jhaashutosh/98fc1f42106fad620da72b90c4d1be9c">LoginPage.js</a>
+│               <a href="https://gist.github.com/jhaashutosh/1561e1dfe425154f61773756ef195689">ProfilePage.js</a>
+│               <a href="https://gist.github.com/jhaashutosh/d80b1617a123fdc6119e35c403b64c11">RegisterPage.js</a>
+│               <a href="https://gist.github.com/jhaashutosh/702fa4f39c9875dafd19dde58e58d1e7">SchoolBillHistoryPage.js</a>
 │
 └───server
-    │   <a href="https://gist.github.com/syedmazharaliraza/526b1672b9f1674034bfdb64ffd01d79">index.js</a>
+    │   <a href="https://gist.github.com/jhaashutosh/134def97ecd1c068e414e1322d710f0f">index.js</a>
     │
     ├───controllers
-    │        <a href="https://gist.github.com/syedmazharaliraza/0d226480cc9b62df2db6f4b1eb335dc3">billController.js</a>
-    │        <a href="https://gist.github.com/syedmazharaliraza/c085ca053022149d06fc3c272b2d9cc4">unitController.js</a>
-    │        <a href="https://gist.github.com/syedmazharaliraza/4feb58411b7dd4a9afd58af8f4793105">userController.js</a>
+    │        <a href="https://gist.github.com/jhaashutosh/3f7e6205639c0c13f8922f89afa078cb">billController.js</a>
+    │        <a href="https://gist.github.com/jhaashutosh/871f269f0ba1f6b06c0f3e9e80d20898">unitController.js</a>
+    │        <a href="https://gist.github.com/jhaashutosh/b9fc37c738b9ce73a479c08435060a36">userController.js</a>
     │
     ├───middleware
-    │        <a href="https://gist.github.com/syedmazharaliraza/61e565d27c68a87e6b3e8f2d5bdd9295">authMiddleware.js</a>
-    │        <a href="https://gist.github.com/syedmazharaliraza/76be8026a4c397ede9f75adfc664c1a7">errorMiddleware.js</a>
+    │        <a href="https://gist.github.com/jhaashutosh/2c8b121b218ad57797f25255048de3f3">authMiddleware.js</a>
+    │        <a href="https://gist.github.com/jhaashutosh/509ad31461bb5b8ca31121fe80c66d66">errorMiddleware.js</a>
     │
     ├───models
-    │        <a href="https://gist.github.com/syedmazharaliraza/318ae9b7f4917276a286af30c5720848">billModel.js</a>
-    │        <a href="https://gist.github.com/syedmazharaliraza/835320deb5d2247bc119c956ce13b547">unitModel.js</a>
-    │        <a href="https://gist.github.com/syedmazharaliraza/fc4018754c572df16aa8671da81b992c">userModel.js</a>
+    │        <a href="https://gist.github.com/jhaashutosh/7ba29a4933a23a194570a17c674dbe5b">billModel.js</a>
+    │        <a href="https://gist.github.com/jhaashutosh/e94c157419f795d69b842f1dd0657a4a">unitModel.js</a>
+    │        <a href="https://gist.github.com/jhaashutosh/09b1f160ce80ebdd0cd306d29527d825">userModel.js</a>
     │
     ├───routes
-    │       <a href="https://gist.github.com/syedmazharaliraza/5ff2c8439d79b557732d72821e08820d">billRoutes.js</a>
-    │       <a href="https://gist.github.com/syedmazharaliraza/cce59bf17b7bcf1b3d6f43e8bdbdbcb7">unitRoutes.js</a>
-    │       <a href="https://gist.github.com/syedmazharaliraza/5b87181ab993ed3fd1aad6ec0f3198e6">userRoutes.js</a>
+    │       <a href="https://gist.github.com/jhaashutosh/18c027f54de5d387a12cde1db898eb35">billRoutes.js</a>
+    │       <a href="https://gist.github.com/jhaashutosh/20c80621f423f2638c48dd681a7a00bd">unitRoutes.js</a>
+    │       <a href="https://gist.github.com/jhaashutosh/417afc9ae233dcb2f03fbbca80a26e8a">userRoutes.js</a>
     │
     └───utils
-            <a href="https://gist.github.com/syedmazharaliraza/8af7286fdfe5c82d275ae6f8d12a63b8">db.js<a/>
+            <a href="https://gist.github.com/jhaashutosh/6c74794616589bb938c252fe6bd9a0b0">db.js<a/>
 </pre>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
