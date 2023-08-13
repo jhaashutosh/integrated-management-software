@@ -14,7 +14,7 @@ const getUnits = asyncHandler(async (req, res) => {
 });
 
 const getUnitById = asyncHandler(async (req, res) => {
-  const unit = await Unit.findById(req.params).lean();
+  const unit = await Unit.findById(req.params.id).lean();
   const bill = await Bill.find({}).sort({ invoiceNumber: -1 }).limit(1);
   if ({ ...unit }) {
     res

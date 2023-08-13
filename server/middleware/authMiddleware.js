@@ -14,7 +14,7 @@ const protectRoute = asyncHandler(async (req, res, next) => {
       req.user = await User.findById(decoded.id).select("-password");
       next();
     } catch (error) {
-      res.status(401);
+      res.status(403);
       throw new Error("Not authorized, token failed!");
     }
   } else {
