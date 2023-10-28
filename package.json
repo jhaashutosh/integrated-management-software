@@ -1,6 +1,6 @@
 {
   "name": "integrated-management-system",
-  "proxy": "http://localhost:5001/",
+  "proxy": "https://dull-moth-overcoat.cyclic.app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
