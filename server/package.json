@@ -1,12 +1,12 @@
 {
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/index.js",
-    "server": "nodemon server/index.js",
+    "start": "node index.js",
+    "server": "nodemon index.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "data:import": "node server/seeder",
-    "data:destroy": "node server/seeder -d",
+    "data:import": "node seeder",
+    "data:destroy": "node seeder -d",
     "vercel-build": "npm install && npm run build-backend",
     "build-backend": "echo \"Backend build step completed\""
   },
