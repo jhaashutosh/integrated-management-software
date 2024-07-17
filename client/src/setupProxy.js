@@ -5,7 +5,7 @@ module.exports = function(app) {
   app.use(
     '/api',
     createProxyMiddleware({
-      target: 'http://localhost:5001',
+      target: 'https://integrated-management-software-9bl5.vercel.app/',
       changeOrigin: true,
       onProxyReq: (proxyReq, req, res) => {
         console.log(`Proxying request to: ${proxyReq.getHeader('host')}`);
