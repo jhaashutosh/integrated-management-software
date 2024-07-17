@@ -48,9 +48,9 @@ connectDB()
       app.get("*", (req, res) =>
         res.sendFile(path.join(__dirname, "../client/build/index.html"))
       );
-    } else {
-      app.get("/", (req, res) => res.send("API is running"));
     }
+
+    app.get("/", (req, res) => res.send("API is running"));
 
     // Error handling middleware
     app.use(notFoundHandler);
