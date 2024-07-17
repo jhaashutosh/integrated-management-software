@@ -1,16 +1,15 @@
 {
   "version": 2,
-  "name": "integrated-management-system",
   "builds": [
-    {
-      "src": "server/index.js",
-      "use": "@vercel/node"
-    }
+      {
+          "src": "*.js",
+          "use": "@vercel/node"
+      }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/server/index.js"
-    }
+      {
+          "src": "/(.*)",
+          "dest": "/"
+      }
   ]
 }
