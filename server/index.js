@@ -9,6 +9,13 @@ const path = require("path");
 
 const app = express();
 
+//vercel cors setup
+app.use(cors({
+  origin: ["https://deploy-mern-1whq.vercel.app"],
+  Credentials: true,
+  methods: ["GET", "POST", "DELETE", "PATCH"],
+}))
+
 // Load environment variables from a .env file
 dotenv.config();
 

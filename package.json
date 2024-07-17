@@ -7,7 +7,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "data:import": "node server/seeder",
     "data:destroy": "node server/seeder -d",
-    "vercel-build": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "vercel-build": "npm install && npm run build-backend"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
