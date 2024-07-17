@@ -62,3 +62,6 @@ connectDB()
   .catch((error) => {
     console.error(`Database connection error: ${error.message}`);
   });
+
+// Export the app for Vercel
+module.exports = app;
