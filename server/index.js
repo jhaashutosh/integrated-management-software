@@ -11,7 +11,7 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors({
-  origin: ["integrated-management-software-k7p8.vercel.app"],
+  origin: ["https://integrated-management-software.vercel.app/"],
   credentials: true,
   methods: ["GET", "POST", "PUT", "DELETE"],
 }))
