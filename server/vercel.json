@@ -3,14 +3,14 @@
   "name": "integrated-management-system",
   "builds": [
     {
-      "src": "/index.js",
+      "src": "*.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "/index.js"
+      "dest": "/"
     }
   ]
 }
