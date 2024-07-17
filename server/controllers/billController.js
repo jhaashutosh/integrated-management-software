@@ -3,6 +3,8 @@ const { default: mongoose } = require("mongoose");
 const Bill = require("../models/billModel");
 const Unit = require("../models/unitModel");
 
+mongoose.set('strictQuery', false);
+
 const getAllBills = asyncHandler(async (req, res) => {
   const bills = await Bill.find({}).sort({ invoiceNumber: -1 }).limit(50);
   if (bills) {
