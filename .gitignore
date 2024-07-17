@@ -5,6 +5,7 @@ node_modules
 node_modules/
 /.pnp
 .pnp.js
+/package-lock.json
 
 # testing
 /coverage
@@ -24,3 +25,4 @@ yarn-error.log*
 # data
 server/seeder.js
 server/data
+/server/data/users.js
